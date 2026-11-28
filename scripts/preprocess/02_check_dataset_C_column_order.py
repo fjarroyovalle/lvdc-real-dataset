@@ -21,8 +21,8 @@ without using those value ranges:
    aligned file and in the raw rows after the second marker row read in the header
    order, overall and for each block of rows between marker rows.
 
-The column order is inferred from the data; it has not been confirmed by the data
-provider. This script only reads the two files and writes nothing.
+The column mapping was determined from checks on the raw data, as described in the
+metadata file of Dataset C. This script only reads the two files and writes nothing.
 
 Usage (run from the repository root)
 ------------------------------------

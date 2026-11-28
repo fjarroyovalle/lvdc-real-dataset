@@ -10,11 +10,14 @@ Context
 -------
 The raw file contains 12 event-marker rows (Timestamp,CONNECTION_RESTORED). The first
 14 data rows follow the header order. In the data rows after the second marker row
-(file line 17), the numeric fields appear in the order poweroutput, upstreamvoltage,
-upstreamcurrent, temperature, systemstate. This order was inferred from the data,
-using the relation between power, voltage and current; it has not been confirmed by
-the data provider. We keep the raw file unchanged and generate an aligned CSV under
-data/processed/ for analysis and figure generation.
+(file line 17), the numeric fields are consistent with the order poweroutput,
+upstreamvoltage, upstreamcurrent, temperature, systemstate. The mapping was
+determined from checks on the raw data: with this order, P = U * I / 1000 holds
+within 0.05 kW in 121545 of the 122109 data rows, and in none of the 122095 rows
+after file line 17 when they are read in the header order (see
+02_check_dataset_C_column_order.py and the metadata file of Dataset C). We keep the
+raw file unchanged and generate an aligned CSV under data/processed/ for analysis
+and figure generation.
 
 How to run
 ----------
