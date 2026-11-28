@@ -26,8 +26,10 @@ Datasets A and B do not require preprocessing and are used directly from
 
 ## original_from_partners/
 
-The `original_from_partners/` folder contains the original files received from 
-the industrial partners, preserved without modification for traceability. These 
-files use the original naming conventions and data formats as provided, and may 
-differ from the reference files in `raw/` in terms of filename, structure, or 
-column ordering.
+The `original_from_partners/` folder contains the original files received from
+the industrial partners, preserved without modification for traceability. The
+reference CSV files of Datasets A, B and C in `raw/` are identical to
+`IEK_1sDatn_dp_2025_05_02.csv`, `IEK_1sDatn_dp_2024_05_10.csv` and
+`DC_Systems_AC_DC_AFE_modbus_dataset_part2_full_segment.csv`, respectively;
+only the filenames differ. The other files in this folder are not used as
+reference datasets.

@@ -65,9 +65,9 @@ The datasets are suitable for:
 - event-driven monitoring and detection,
 - analysis of LVDC voltage dynamics under real operating conditions,
 - evaluation of data-driven and machine learning-based methods,
-- validation of monitoring and prioritization strategies using real industrial data.
+- testing of monitoring and prioritization strategies on real industrial data.
 
-The datasets are not intended to represent controlled laboratory experiments, but rather continuous operational behavior.
+The datasets describe the behaviour of LVDC installations during normal operation.
 
 ---
 

@@ -207,7 +207,7 @@ echo
 
 # ---------------------------------------------------------------------------
 # Reporting 02
-# Paper-ready LaTeX table of candidate |dV/dt| events (Table 2).
+# Paper-ready LaTeX table of candidate |dV/dt| events (Table 3).
 # Caption and label are passed explicitly for consistent manuscript output.
 # This stage reads the Stage 03 outputs identified by the shared RUN_ID.
 # ---------------------------------------------------------------------------
