@@ -1,12 +1,16 @@
 cff-version: 1.2.0
 title: "A real-world low-voltage direct current (LVDC) dataset for event-driven monitoring and signal prioritization"
-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata from this file."
+version: "v4"
 type: dataset
 
-# TODO before public release:
-# - Add date-released: "YYYY-MM-DD"
-
+# Concept DOI: always resolves to the latest version of the Zenodo record.
 doi: 10.5281/zenodo.18524234
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24230014
+    description: "Version 4 of the Zenodo record, cited in the revised Data Descriptor"
+repository-code: "https://github.com/SHIFT2DC/lvdc-real-dataset"
 
 authors:
   - family-names: Arroyo-Valle
